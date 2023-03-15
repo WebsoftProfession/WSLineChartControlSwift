@@ -19,8 +19,6 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = 'A light weight line chart control. Easy to integrate and use. Just assign custom class to your view and use easy configuration as mentioned in example project.'
-TODO: Add long description of the pod here.
-                       DESC
 
   s.homepage         = 'https://github.com/WebsoftProfession/WSLineChartControlSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
