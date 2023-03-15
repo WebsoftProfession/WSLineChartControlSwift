@@ -23,6 +23,14 @@ it, simply add the following line to your Podfile:
 pod 'WSLineChartControlSwift'
 ```
 
+## Preview
+
+![Alt text](https://github.com/WebsoftProfession/WSLineChartControlSwift/blob/main/chart1.png?raw=true "Optional Title")
+![Alt text](https://github.com/WebsoftProfession/WSLineChartControlSwift/blob/main/chart2.png?raw=true "Optional Title")
+![Alt text](https://github.com/WebsoftProfession/WSLineChartControlSwift/blob/main/chart3.png?raw=true "Optional Title")
+![Alt text](https://github.com/WebsoftProfession/WSLineChartControlSwift/blob/main/chart4.png?raw=true "Optional Title")
+
+
 ## Author
 
 WebsoftProfession, websoftprofession@gmail.com
