@@ -1,0 +1,6 @@
+framework module Pods_WSLineChartControlSwift_Tests {
+  umbrella header "Pods-WSLineChartControlSwift_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

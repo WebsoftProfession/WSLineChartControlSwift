@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'WSLineChartControlSwift_Example' do
+  pod 'WSLineChartControlSwift', :path => '../'
+
+  target 'WSLineChartControlSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

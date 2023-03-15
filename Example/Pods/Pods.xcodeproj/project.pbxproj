@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1874179929C18FE500537BBB /* WSChartDatasetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874179729C18FE500537BBB /* WSChartDatasetModel.swift */; };
+		1874179A29C18FE500537BBB /* WSLineChartControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874179829C18FE500537BBB /* WSLineChartControl.swift */; };
+		23C9D06B16CE2EB114050EC413581E11 /* WSLineChartControlSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1152C4F2BFD1BD48F8461BB5199F81EB /* WSLineChartControlSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A5F9074141026497D43F8BDC7AFF24B /* WSLineChartControlSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4504FE41E8E371BD353445CE51F7D /* WSLineChartControlSwift-dummy.m */; };
+		3169C8FB8FF9254B1F999A439CF9C4C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4A822AC8EA543044C977ED41598FCDF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5867DF98353C9336780F5D5BA78411B8 /* Pods-WSLineChartControlSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 314489CB85C25D2991239D329EAF219B /* Pods-WSLineChartControlSwift_Example-dummy.m */; };
+		916A8485A27395AC9118C22DEB8C4CD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DBDEC0B0C9A41956E570CA212EDD8917 /* Pods-WSLineChartControlSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF293336FD58B4160B82F848DD16982C /* Pods-WSLineChartControlSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FC3CF3B2D1C2320E8F0DE60DCCD332 /* Pods-WSLineChartControlSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BA8A4461F72FD72B079266A7676A43 /* Pods-WSLineChartControlSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F109070F6C1BBDC40B803578258DECBB /* Pods-WSLineChartControlSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E685A24E421B92617504A44A7E13D625 /* Pods-WSLineChartControlSwift_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DBDF17FB5AE39DFE461120158484A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AA1D14D512393B09E5B7D13EC4D12B6;
+			remoteInfo = "Pods-WSLineChartControlSwift_Example";
+		};
+		B05B5700A1A9375CDC8B110D87FD9478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B7A3B250B7F681F36DC45F94C108803;
+			remoteInfo = WSLineChartControlSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F4504FE41E8E371BD353445CE51F7D /* WSLineChartControlSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WSLineChartControlSwift-dummy.m"; sourceTree = "<group>"; };
+		102011E5C93A12631ED149DFE648504D /* Pods-WSLineChartControlSwift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WSLineChartControlSwift_Tests"; path = Pods_WSLineChartControlSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1152C4F2BFD1BD48F8461BB5199F81EB /* WSLineChartControlSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSLineChartControlSwift-umbrella.h"; sourceTree = "<group>"; };
+		1874179729C18FE500537BBB /* WSChartDatasetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WSChartDatasetModel.swift; path = WSLineChartControlSwift/Classes/WSChartDatasetModel.swift; sourceTree = "<group>"; };
+		1874179829C18FE500537BBB /* WSLineChartControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WSLineChartControl.swift; path = WSLineChartControlSwift/Classes/WSLineChartControl.swift; sourceTree = "<group>"; };
+		314489CB85C25D2991239D329EAF219B /* Pods-WSLineChartControlSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WSLineChartControlSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		43703ADC387D79AD6D5D7DD9D3B33087 /* WSLineChartControlSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WSLineChartControlSwift.release.xcconfig; sourceTree = "<group>"; };
+		4BC9117D46AFFB0BE5FFE0FC54C28CAE /* Pods-WSLineChartControlSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WSLineChartControlSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59A276F86AF86EBA3DBADD6048815033 /* Pods-WSLineChartControlSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WSLineChartControlSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		64B4EF09FEFC1B390C9EB9C6C7962FC7 /* WSLineChartControlSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WSLineChartControlSwift; path = WSLineChartControlSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BA8A4461F72FD72B079266A7676A43 /* Pods-WSLineChartControlSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WSLineChartControlSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		700B12B245892D3C6A5E9113386C4875 /* Pods-WSLineChartControlSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WSLineChartControlSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B3CCC3F8CA0BB05981D6667E29A21A4 /* WSLineChartControlSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WSLineChartControlSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7F1DD56C0F55973E0C9D991BE7BD9DDB /* Pods-WSLineChartControlSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSLineChartControlSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8B6D1C4BFAE6C27FC589F354CA2177F4 /* Pods-WSLineChartControlSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSLineChartControlSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		937C8B0D941FFBCF186AD975E13776AF /* Pods-WSLineChartControlSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WSLineChartControlSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		94CADCE60B17BA09D3D925D059FDE67F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		95ED50ACCBE99517E3D901C6F741EE95 /* Pods-WSLineChartControlSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WSLineChartControlSwift_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A334E4CB5D066C109664C29F5EED78CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AC23C8B3C9EA463CA7284273FE69F1E5 /* WSLineChartControlSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WSLineChartControlSwift-Info.plist"; sourceTree = "<group>"; };
+		B048FB56D8152A9D8C714028097FD2FB /* Pods-WSLineChartControlSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSLineChartControlSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B940249CC29EF4B5A21C687B6F921A6B /* Pods-WSLineChartControlSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSLineChartControlSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BAAD1A48E15BF93C1EFB8C4884016819 /* WSLineChartControlSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WSLineChartControlSwift.debug.xcconfig; sourceTree = "<group>"; };
+		BF293336FD58B4160B82F848DD16982C /* Pods-WSLineChartControlSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WSLineChartControlSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C27F4A794262FC43AE800CE09161A0FA /* Pods-WSLineChartControlSwift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WSLineChartControlSwift_Example"; path = Pods_WSLineChartControlSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AFB8F86FC96C69E0605D1F1E9A13FF /* WSLineChartControlSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WSLineChartControlSwift.modulemap; sourceTree = "<group>"; };
+		D3154725D77FCD65F6796E62048E33EC /* Pods-WSLineChartControlSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSLineChartControlSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D71CDB74DC908DBD64C26D90BFC289BD /* WSLineChartControlSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSLineChartControlSwift-prefix.pch"; sourceTree = "<group>"; };
+		D9B296295EF030D3A0715ED927576D7B /* Pods-WSLineChartControlSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSLineChartControlSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E685A24E421B92617504A44A7E13D625 /* Pods-WSLineChartControlSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WSLineChartControlSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		EB301A0C563D545C7F11912DD5497776 /* Pods-WSLineChartControlSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSLineChartControlSwift_Tests-Info.plist"; sourceTree = "<group>"; };
+		FBF714566B5C3B6B58F4E73BA1E157E1 /* Pods-WSLineChartControlSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSLineChartControlSwift_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2136C99AE22F794093684A5634D0AAE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916A8485A27395AC9118C22DEB8C4CD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E328554C458FF14C94BC5B5F8F7D144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A822AC8EA543044C977ED41598FCDF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43F42632D908786990A8831E60A6482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3169C8FB8FF9254B1F999A439CF9C4C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05735596C52135D30679643F33F94C62 /* Pods-WSLineChartControlSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				95ED50ACCBE99517E3D901C6F741EE95 /* Pods-WSLineChartControlSwift_Example.modulemap */,
+				4BC9117D46AFFB0BE5FFE0FC54C28CAE /* Pods-WSLineChartControlSwift_Example-acknowledgements.markdown */,
+				B940249CC29EF4B5A21C687B6F921A6B /* Pods-WSLineChartControlSwift_Example-acknowledgements.plist */,
+				314489CB85C25D2991239D329EAF219B /* Pods-WSLineChartControlSwift_Example-dummy.m */,
+				59A276F86AF86EBA3DBADD6048815033 /* Pods-WSLineChartControlSwift_Example-frameworks.sh */,
+				FBF714566B5C3B6B58F4E73BA1E157E1 /* Pods-WSLineChartControlSwift_Example-Info.plist */,
+				68BA8A4461F72FD72B079266A7676A43 /* Pods-WSLineChartControlSwift_Example-umbrella.h */,
+				7F1DD56C0F55973E0C9D991BE7BD9DDB /* Pods-WSLineChartControlSwift_Example.debug.xcconfig */,
+				D3154725D77FCD65F6796E62048E33EC /* Pods-WSLineChartControlSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-WSLineChartControlSwift_Example";
+			path = "Target Support Files/Pods-WSLineChartControlSwift_Example";
+			sourceTree = "<group>";
+		};
+		1A183265B8059F03E36C2B68A775BAA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8AFB8F86FC96C69E0605D1F1E9A13FF /* WSLineChartControlSwift.modulemap */,
+				03F4504FE41E8E371BD353445CE51F7D /* WSLineChartControlSwift-dummy.m */,
+				AC23C8B3C9EA463CA7284273FE69F1E5 /* WSLineChartControlSwift-Info.plist */,
+				D71CDB74DC908DBD64C26D90BFC289BD /* WSLineChartControlSwift-prefix.pch */,
+				1152C4F2BFD1BD48F8461BB5199F81EB /* WSLineChartControlSwift-umbrella.h */,
+				BAAD1A48E15BF93C1EFB8C4884016819 /* WSLineChartControlSwift.debug.xcconfig */,
+				43703ADC387D79AD6D5D7DD9D3B33087 /* WSLineChartControlSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WSLineChartControlSwift";
+			sourceTree = "<group>";
+		};
+		27B2FE167A251034C24B868690A2D108 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DD056162BFC1ED78AF1680AB5BC61C5 /* WSLineChartControlSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DD056162BFC1ED78AF1680AB5BC61C5 /* WSLineChartControlSwift */ = {
+			isa = PBXGroup;
+			children = (
+				1874179729C18FE500537BBB /* WSChartDatasetModel.swift */,
+				1874179829C18FE500537BBB /* WSLineChartControl.swift */,
+				9CB6F548DDD6FAD830ABE9EC41A34E64 /* Pod */,
+				1A183265B8059F03E36C2B68A775BAA9 /* Support Files */,
+			);
+			name = WSLineChartControlSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		402C6FEB32C09DF2E9C740EFF4A7587A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C27F4A794262FC43AE800CE09161A0FA /* Pods-WSLineChartControlSwift_Example */,
+				102011E5C93A12631ED149DFE648504D /* Pods-WSLineChartControlSwift_Tests */,
+				64B4EF09FEFC1B390C9EB9C6C7962FC7 /* WSLineChartControlSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		71311D922D4911E7C16058E6CB66891D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05735596C52135D30679643F33F94C62 /* Pods-WSLineChartControlSwift_Example */,
+				C2F7D063E4BE5E5CFF4B247D14351B1A /* Pods-WSLineChartControlSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9CB6F548DDD6FAD830ABE9EC41A34E64 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				94CADCE60B17BA09D3D925D059FDE67F /* LICENSE */,
+				A334E4CB5D066C109664C29F5EED78CF /* README.md */,
+				7B3CCC3F8CA0BB05981D6667E29A21A4 /* WSLineChartControlSwift.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C2F7D063E4BE5E5CFF4B247D14351B1A /* Pods-WSLineChartControlSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				937C8B0D941FFBCF186AD975E13776AF /* Pods-WSLineChartControlSwift_Tests.modulemap */,
+				700B12B245892D3C6A5E9113386C4875 /* Pods-WSLineChartControlSwift_Tests-acknowledgements.markdown */,
+				D9B296295EF030D3A0715ED927576D7B /* Pods-WSLineChartControlSwift_Tests-acknowledgements.plist */,
+				E685A24E421B92617504A44A7E13D625 /* Pods-WSLineChartControlSwift_Tests-dummy.m */,
+				EB301A0C563D545C7F11912DD5497776 /* Pods-WSLineChartControlSwift_Tests-Info.plist */,
+				BF293336FD58B4160B82F848DD16982C /* Pods-WSLineChartControlSwift_Tests-umbrella.h */,
+				8B6D1C4BFAE6C27FC589F354CA2177F4 /* Pods-WSLineChartControlSwift_Tests.debug.xcconfig */,
+				B048FB56D8152A9D8C714028097FD2FB /* Pods-WSLineChartControlSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-WSLineChartControlSwift_Tests";
+			path = "Target Support Files/Pods-WSLineChartControlSwift_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				27B2FE167A251034C24B868690A2D108 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				402C6FEB32C09DF2E9C740EFF4A7587A /* Products */,
+				71311D922D4911E7C16058E6CB66891D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B4C0E218CA06A756CBDC6F1FDD33F1A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C9D06B16CE2EB114050EC413581E11 /* WSLineChartControlSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AC91D05D4A9518866B033E387285AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FC3CF3B2D1C2320E8F0DE60DCCD332 /* Pods-WSLineChartControlSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AE3BAD6427450FAAACCF24AC9EFD5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDEC0B0C9A41956E570CA212EDD8917 /* Pods-WSLineChartControlSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1AA1D14D512393B09E5B7D13EC4D12B6 /* Pods-WSLineChartControlSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28E77A9AB0DFAE4D116689747CA7159 /* Build configuration list for PBXNativeTarget "Pods-WSLineChartControlSwift_Example" */;
+			buildPhases = (
+				E1AC91D05D4A9518866B033E387285AE /* Headers */,
+				03096663419EF9A48A1890BF1E473AA1 /* Sources */,
+				2136C99AE22F794093684A5634D0AAE5 /* Frameworks */,
+				9A0E4610061A4384C47DD4875D42DF9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75CD480E8287ABDF9895B1DEE624BB9C /* PBXTargetDependency */,
+			);
+			name = "Pods-WSLineChartControlSwift_Example";
+			productName = Pods_WSLineChartControlSwift_Example;
+			productReference = C27F4A794262FC43AE800CE09161A0FA /* Pods-WSLineChartControlSwift_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		1B7A3B250B7F681F36DC45F94C108803 /* WSLineChartControlSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26EAA8A82B4F49B686203CED5CB588F2 /* Build configuration list for PBXNativeTarget "WSLineChartControlSwift" */;
+			buildPhases = (
+				B4C0E218CA06A756CBDC6F1FDD33F1A4 /* Headers */,
+				B9FCC174C552C831577041814EC7770F /* Sources */,
+				8E328554C458FF14C94BC5B5F8F7D144 /* Frameworks */,
+				D5E15F9805D25717C8F7C063E878EE92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSLineChartControlSwift;
+			productName = WSLineChartControlSwift;
+			productReference = 64B4EF09FEFC1B390C9EB9C6C7962FC7 /* WSLineChartControlSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9D6D5B82EB35AD3AC661B581BD22C74 /* Pods-WSLineChartControlSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAAC94997938C6F87EBB5EB206FA854E /* Build configuration list for PBXNativeTarget "Pods-WSLineChartControlSwift_Tests" */;
+			buildPhases = (
+				E4AE3BAD6427450FAAACCF24AC9EFD5A /* Headers */,
+				CD05C394FFBE070A3E382E10A9F472FA /* Sources */,
+				D43F42632D908786990A8831E60A6482 /* Frameworks */,
+				9DF7FC476B30B4BBA161D1FDF93B6DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E03B39A5E891F69F1AC30B5990D7AD84 /* PBXTargetDependency */,
+			);
+			name = "Pods-WSLineChartControlSwift_Tests";
+			productName = Pods_WSLineChartControlSwift_Tests;
+			productReference = 102011E5C93A12631ED149DFE648504D /* Pods-WSLineChartControlSwift_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 402C6FEB32C09DF2E9C740EFF4A7587A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AA1D14D512393B09E5B7D13EC4D12B6 /* Pods-WSLineChartControlSwift_Example */,
+				B9D6D5B82EB35AD3AC661B581BD22C74 /* Pods-WSLineChartControlSwift_Tests */,
+				1B7A3B250B7F681F36DC45F94C108803 /* WSLineChartControlSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A0E4610061A4384C47DD4875D42DF9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF7FC476B30B4BBA161D1FDF93B6DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E15F9805D25717C8F7C063E878EE92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03096663419EF9A48A1890BF1E473AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5867DF98353C9336780F5D5BA78411B8 /* Pods-WSLineChartControlSwift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FCC174C552C831577041814EC7770F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874179A29C18FE500537BBB /* WSLineChartControl.swift in Sources */,
+				1874179929C18FE500537BBB /* WSChartDatasetModel.swift in Sources */,
+				2A5F9074141026497D43F8BDC7AFF24B /* WSLineChartControlSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD05C394FFBE070A3E382E10A9F472FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F109070F6C1BBDC40B803578258DECBB /* Pods-WSLineChartControlSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75CD480E8287ABDF9895B1DEE624BB9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WSLineChartControlSwift;
+			target = 1B7A3B250B7F681F36DC45F94C108803 /* WSLineChartControlSwift */;
+			targetProxy = B05B5700A1A9375CDC8B110D87FD9478 /* PBXContainerItemProxy */;
+		};
+		E03B39A5E891F69F1AC30B5990D7AD84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WSLineChartControlSwift_Example";
+			target = 1AA1D14D512393B09E5B7D13EC4D12B6 /* Pods-WSLineChartControlSwift_Example */;
+			targetProxy = 5DBDF17FB5AE39DFE461120158484A37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06A14E7F05D65A0C404BD69F812C46EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F1DD56C0F55973E0C9D991BE7BD9DDB /* Pods-WSLineChartControlSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WSLineChartControlSwift_Example/Pods-WSLineChartControlSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WSLineChartControlSwift_Example/Pods-WSLineChartControlSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3967565EB759BD994B4BACD1E37E0C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAAD1A48E15BF93C1EFB8C4884016819 /* WSLineChartControlSwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WSLineChartControlSwift/WSLineChartControlSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WSLineChartControlSwift/WSLineChartControlSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WSLineChartControlSwift/WSLineChartControlSwift.modulemap";
+				PRODUCT_MODULE_NAME = WSLineChartControlSwift;
+				PRODUCT_NAME = WSLineChartControlSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A9782A62E0016399D9872009191B74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43703ADC387D79AD6D5D7DD9D3B33087 /* WSLineChartControlSwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WSLineChartControlSwift/WSLineChartControlSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WSLineChartControlSwift/WSLineChartControlSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WSLineChartControlSwift/WSLineChartControlSwift.modulemap";
+				PRODUCT_MODULE_NAME = WSLineChartControlSwift;
+				PRODUCT_NAME = WSLineChartControlSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CA67FF9107162EE1E3C3684BBF9D411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B6D1C4BFAE6C27FC589F354CA2177F4 /* Pods-WSLineChartControlSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WSLineChartControlSwift_Tests/Pods-WSLineChartControlSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WSLineChartControlSwift_Tests/Pods-WSLineChartControlSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6818E2407742A5F3EE638CC95445E2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B048FB56D8152A9D8C714028097FD2FB /* Pods-WSLineChartControlSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WSLineChartControlSwift_Tests/Pods-WSLineChartControlSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WSLineChartControlSwift_Tests/Pods-WSLineChartControlSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BFD6E9FA120E0BA64D65F5795FCE8017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3154725D77FCD65F6796E62048E33EC /* Pods-WSLineChartControlSwift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WSLineChartControlSwift_Example/Pods-WSLineChartControlSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WSLineChartControlSwift_Example/Pods-WSLineChartControlSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26EAA8A82B4F49B686203CED5CB588F2 /* Build configuration list for PBXNativeTarget "WSLineChartControlSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3967565EB759BD994B4BACD1E37E0C8C /* Debug */,
+				3A9782A62E0016399D9872009191B74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAAC94997938C6F87EBB5EB206FA854E /* Build configuration list for PBXNativeTarget "Pods-WSLineChartControlSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA67FF9107162EE1E3C3684BBF9D411 /* Debug */,
+				6818E2407742A5F3EE638CC95445E2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28E77A9AB0DFAE4D116689747CA7159 /* Build configuration list for PBXNativeTarget "Pods-WSLineChartControlSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06A14E7F05D65A0C404BD69F812C46EA /* Debug */,
+				BFD6E9FA120E0BA64D65F5795FCE8017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

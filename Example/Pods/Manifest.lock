@@ -1,0 +1,16 @@
+PODS:
+  - WSLineChartControlSwift (0.1.0)
+
+DEPENDENCIES:
+  - WSLineChartControlSwift (from `../`)
+
+EXTERNAL SOURCES:
+  WSLineChartControlSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WSLineChartControlSwift: af0e5ad73a8938fd40181412c1c12861c3661e15
+
+PODFILE CHECKSUM: d863cd57124c1aa7112ac750cffb111f126d51c9
+
+COCOAPODS: 1.11.3
