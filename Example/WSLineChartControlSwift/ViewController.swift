@@ -49,7 +49,7 @@ class ViewController: UIViewController {
         
         
         chartControl.dataset = [WSChartDatasetModel.init(values: [WSLabelDataset.init(xValue: "Jan", yValue: 3),
-                                                                  WSLabelDataset.init(xValue: "Feb", yValue: 25),
+                                                                  WSLabelDataset.init(xValue: "Feb", yValue: 10),
                                                                   WSLabelDataset.init(xValue: "Mar", yValue: 7),
                                                                   WSLabelDataset.init(xValue: "Apr", yValue: 10),
                                                                   WSLabelDataset.init(xValue: "May", yValue: 15),

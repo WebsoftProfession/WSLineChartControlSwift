@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WSLineChartControlSwift'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A light weight line chart control. Easy to integrate and use.'
   s.swift_version = '5.0'
 

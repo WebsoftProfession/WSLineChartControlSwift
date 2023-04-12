@@ -164,6 +164,9 @@ public class WSLineChartControl: UIView {
             yInsetValue = textSize.width + 15
         }
         
+        let textSize: CGSize = "\(maxYValue)".size(withAttributes: attributes)
+        xInsetValue = textSize.width
+        
         if maxXValue > 10 {
             if isLabelDataSet {
                 xVariation = 1
@@ -178,6 +181,14 @@ public class WSLineChartControl: UIView {
         if maxYValue > 10 {
             maxYValue = maxYValue / 10
             yVariation = Int(ceil(maxYValue))
+            maxYValue = 10
+        }
+        
+        if maxXValue == 0 {
+            maxXValue = 10
+        }
+        
+        if maxYValue == 0 {
             maxYValue = 10
         }
         
@@ -242,7 +253,7 @@ public class WSLineChartControl: UIView {
                     xLabelString.drawWithBasePoint(basePoint: .init(x: pointToMove.x, y: rect.height - yInsetValue/2), andAngle: -1 * .pi/3, andAttributes: attributes)
                 }
                 else{
-                    self.drawTitle(xLabelString, with: .systemFont(ofSize: 12), in: CGRect.init(x: pointToMove.x - 12 , y: rect.height - yInsetValue + 5, width: 20, height: 20), attributes: attributes)
+                    self.drawTitle(xLabelString, with: self.axisValueFont, in: CGRect.init(x: pointToMove.x - 12 , y: rect.height - yInsetValue + 5, width: 20, height: 20), attributes: attributes)
                 }
             }
             self.axisValueColor.setStroke()
@@ -261,7 +272,7 @@ public class WSLineChartControl: UIView {
                 path.move(to: pointToMove)
                 path.addLine(to: CGPoint.init(x: xInsetValue, y: rect.height + 0.5 - ((maxRatioY * Double(value)) + yInsetValue)))
                 yPath?.append(path)
-                self.drawTitle("\(value * yVariation)", with: .systemFont(ofSize: 12), in: CGRect.init(x: 5 , y: pointToMove.y - 10, width: 20, height: 20), attributes: attributes)
+                self.drawTitle("\(value * yVariation)", with: self.axisValueFont, in: CGRect.init(x: 0 , y: pointToMove.y - 10, width: xInsetValue, height: 20), attributes: attributes)
             }
             self.axisColor.setStroke()
             yPath?.lineWidth = 5
